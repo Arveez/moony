@@ -1,3 +1,4 @@
+/*** NAV ***/
 .logo {
     height:50px;
     position: relative;
@@ -15,6 +16,8 @@ nav {
     background-color: blue;
     width :80%;
 }
+
+/*** FOOTER ***/
 footer {
     width :100%;
     background-color: black;
@@ -31,3 +34,43 @@ footer {
     top: 20px;
 }
 
+/*** MAIN STYLES***/
+.display-bloc{
+    display: inline-block;
+}
+
+/*** EVENT ***/
+.icon-sport{
+    width: 50px;
+}
+hr{
+    width: 5rem;
+    border-top: 2px solid #e2e2e2;
+}
+.bg-img-bordeaux{
+    background-image: url('../images/tree-nature-branch-plant-grape-vineyard-1062430-pxhere.com.jpg');
+	width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img-biarritz{
+    background-image: url('../images/img-2.jpg');
+	width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bloc-text{
+    background-color: rgba(255, 255, 255, 0.52);
+}
+.marge-bloc{
+    padding: 2rem 0;
+}
+.item-sport{
+    vertical-align: -5px;
+}
+/*** CONTACT ***/
+#bordeaux{
+    margin-top: 5rem;
+}
