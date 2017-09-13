@@ -38,7 +38,9 @@ footer {
 .display-bloc{
     display: inline-block;
 }
-
+.header-section{
+    margin-top: 5rem;
+}
 /*** EVENT ***/
 .icon-sport{
     width: 50px;
@@ -69,8 +71,4 @@ hr{
 }
 .item-sport{
     vertical-align: -5px;
-}
-/*** CONTACT ***/
-#bordeaux{
-    margin-top: 5rem;
 }
