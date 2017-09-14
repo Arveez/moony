@@ -3,7 +3,9 @@
     height:50px;
     position: relative;
     top : -16px;
-
+}
+.logo-nav{
+    height: 7rem;
 }
 nav {
     padding: 10px;
@@ -16,7 +18,17 @@ nav {
     background-color: blue;
     width :80%;
 }
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
 
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
 /*** FOOTER ***/
 footer {
     width :100%;
@@ -50,14 +62,14 @@ hr{
     border-top: 2px solid #e2e2e2;
 }
 .bg-img-bordeaux{
-    background-image: url('../images/tree-nature-branch-plant-grape-vineyard-1062430-pxhere.com.jpg');
+    background-image: url('../images/vine-moony-blur.jpg');
 	width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .bg-img-biarritz{
-    background-image: url('../images/img-2.jpg');
+    background-image: url('../images/ocean-moony-blur.jpg');
 	width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -71,4 +83,17 @@ hr{
 }
 .item-sport{
     vertical-align: -5px;
+}
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
