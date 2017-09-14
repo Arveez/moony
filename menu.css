@@ -43,10 +43,14 @@ footer {
     margin-bottom: 4em;
 }
 
-.corpsBody, h2{
-    font-style: bold;
+.corpsBody h2{
+    font-weight: bold;
+}
+.english{
+    font-style: italic;
+}
+.labels{
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
-p, .price{
-    font-style: bold;
-}

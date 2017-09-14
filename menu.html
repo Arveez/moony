@@ -60,7 +60,7 @@
 
     <section>
         <div class="container-fluid carrousell">
-            <div id="carousel-example-generic" class="carousel slide col-md-6 col-lg-6 left-block affix" data-ride="carousel">
+            <div id="carousel-example-generic" class="carousel slide col-md-6 col-lg-6 left-block affix hidden-xs hidden-sm" data-ride="carousel">
 
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
@@ -95,39 +95,113 @@
       
         <div class="burger col-md-offset-6 col-md-6 col-lg-offset-6 col-lg-6 right-block">
 
-            <img src="images/labels1.png" alt="Labels qualité" class="img-responsive center-block">
-
+            <img src="images/labels1.png" alt="Labels qualité" class="img-responsive center-block labels">
+        
             <div class="classicMoony active" data-target="#carousel-example-generic" data-slide-to="0">
+                <div class="presentation"></div>
                 <h2>Moony Classic</h2><p class="price">13.90€</p>
                 <p>Boeuf, chedar, tomate, salade, oignon</p>
                 <p class="english">Beef, chedar, tomato, salad, onions</p>
-            </div>
+                <button type="button" class="btn btn-primary btn-lg visible-xs visible-sm" data-toggle="modal" data-target="#myModal1">
+                        Moony Classic
+                </button>
+        </div>
+        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                            <img src="images/food5.jpg" alt="moony classic"  class="img-responsive">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
             <div class="classicChallenger" data-target="#carousel-example-generic" data-slide-to="1">
                 <h2>Moony Challenger</h2> <p class="price">24.90€</p>
                 <p>Quatre étages de boeuf et cheddar, bacon, rösti de pommes de terre, tomage, salade, oignon</p>
                 <p class="english">Four layers of beef and cheese, bacon, hash brown, tomato, salad, onion</p>
+                <button type="button" class="btn btn-primary btn-lg visible-xs visible-sm" data-toggle="modal" data-target="#myModal2">
+                        Moony Challenger
+                </button>
             </div>
+            <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Moony Challenger</h4>
+                        </div>
+                        <div class="modal-body">
+                                <img src="images/food11.jpg" alt="challenger"  class="img-responsive">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-            <img src="images/labels3.png" alt="Labels qualité" class="img-responsive center-block">
+
+
+            <img src="images/labels3.png" alt="Labels qualité" class="img-responsive center-block labels">
 
             <div class="classicMoony active" data-target="#carousel-example-generic" data-slide-to="2">
                 <h2>P'tit Luxe</h2><p class="price">18.20€</p>
                 <p>Boeuf, foie-gras maison, tomate, salade, oignon</p>
                 <p class="english">Beef, home-made foie-gras, tomato, salad, onions</p>
+                <button type="button" class="btn btn-primary btn-lg visible-xs visible-sm" data-toggle="modal" data-target="#myModal3">
+                        P'tit Luxe
+                </button>
             </div>
+            <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">P'tit Luxe</h4>
+                        </div>
+                        <div class="modal-body">
+                                <img src="images/food12.jpg" alt="chica chic"  class="img-responsive">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
             <div class="classicChallenger" data-target="#carousel-example-generic" data-slide-to="3">
                 <h2>Chica Chic</h2> <p class="price">13.90€</p>
                 <p>Poulet, brebis, oignon, poivrons, salade</p>
                 <p class="english">Chicken, cheese, onion, pepper, salad</p>
+                <button type="button" class="btn btn-primary btn-lg visible-xs visible-sm" data-toggle="modal" data-target="#myModal4">
+                        Chica Chic
+                </button>
             </div>
+            <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Chica Chic</h4>
+                        </div>
+                        <div class="modal-body">
+                                <img src="images/food6.jpg" alt="challenger" class="img-responsive">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-            <img src="images/labels2.png" alt="Labels qualité" class="img-responsive center-block">
+
+
+            <img src="images/labels2.png" alt="Labels qualité" class="img-responsive center-block labels">
 
             
         </div>
         
     </div>        
 
+  <!-- Modals -->
 
     </section>
 
