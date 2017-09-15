@@ -9,7 +9,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link type="text/css" rel="stylesheet" href="menu.css" >
+    <link type="text/css" rel="stylesheet" href="style.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
@@ -22,36 +22,35 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
-         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="menu.html">
-                    <p>
-                        <img class="img-responsive logo" alt="logo" src="images/moonylogo.png">
-                    </p>
-                </a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="menu.html"><a href="#">Menu</a></li>
-                    <li><a href="events.html">Evénements</a></li>
-                    <li><a href="whoAreWe.html">Qui sommes nous ?</a></li>
-                    <li><a href="contacts.html">Contact</a></li>
-
-                </ul>
-
-
-            </div><!-- /.navbar-collapse -->
-         </div><!-- /.container-fluid -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="intro.html">
+                        <img class="img-responsive logo logo-nav" alt="logo" src="../images/moonylogo.png">
+                    </a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav text-center center-block">
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="events.html">Evénements</a></li>
+                        <li><a href="whoAreWe.html">Qui sommes nous ?</a></li>
+                        <li class="active"><a href="contacts.html">Contact</a></li>
+                    </ul>
+                    <div class="social-network hidden-xs ">
+                        <a href="https://www.tripadvisor.fr/Restaurant_Review-g187080-d2526815-Reviews-Moony_The_Homemade_Burger_Factory-Biarritz_Basque_Country_Pyrenees_Atlantiques_No.html"><i class="fa fa-tripadvisor"></i></a>
+                        <a href="https://www.facebook.com/MOONY-214864855239151/"><i class="fa fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/moonyburger/"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
         </nav>
     </header>
     <section class="corpsBody">
@@ -65,25 +64,25 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                   <div class="item active">
-                    <img src="images/food5.jpg" alt="moony classic">
+                    <img src="../images/food5.jpg" alt="moony classic">
                     <div class="carousel-caption lead">
                         Moony Classic
                     </div>
                   </div>
                 <div class="item">
-                  <img src="images/food11.jpg" alt="challenger">
+                  <img src="../images/food11.jpg" alt="challenger">
                   <div class="carousel-caption lead">
                       Challenger
                   </div>
                 </div>
                 <div class="item">
-                    <img src="images/food12.jpg" alt="chica chic">
+                    <img src="../images/food12.jpg" alt="chica chic">
                     <div class="carousel-caption lead">
                        P'tit Luxe
                     </div>
                 </div>
                 <div class="item">
-                    <img src="images/food6.jpg" alt="challenger">
+                    <img src="../images/food6.jpg" alt="challenger">
                     <div class="carousel-caption lead">
                         Chica Chic
                     </div>
@@ -95,7 +94,7 @@
       
         <div class="burger col-md-offset-6 col-md-6 col-lg-offset-6 col-lg-6 right-block">
 
-            <img src="images/labels1.png" alt="Labels qualité" class="img-responsive center-block labels">
+            <img src="../images/labels1.png" alt="Labels qualité" class="img-responsive center-block labels">
         
             <div class="classicMoony active" data-target="#carousel-example-generic" data-slide-to="0">
                 <div class="presentation"></div>
@@ -114,7 +113,7 @@
                       <h4 class="modal-title" id="myModalLabel">Modal title</h4>
                     </div>
                     <div class="modal-body">
-                            <img src="images/food5.jpg" alt="moony classic"  class="img-responsive">
+                            <img src="../images/food5.jpg" alt="moony classic"  class="img-responsive">
                     </div>
                   </div>
                 </div>
@@ -137,7 +136,7 @@
                       <h4 class="modal-title" id="myModalLabel">Moony Challenger</h4>
                     </div>
                     <div class="modal-body">
-                            <img src="images/food11.jpg" alt="challenger"  class="img-responsive">
+                            <img src="../images/food11.jpg" alt="challenger"  class="img-responsive">
                     </div>
                   </div>
                 </div>
@@ -145,7 +144,7 @@
 
 
 
-            <img src="images/labels3.png" alt="Labels qualité" class="img-responsive center-block labels">
+            <img src="../images/labels3.png" alt="Labels qualité" class="img-responsive center-block labels">
 
             <div class="classicMoony active" data-target="#carousel-example-generic" data-slide-to="2">
                 <h2>P'tit Luxe</h2><p class="price">18.20€</p>
@@ -163,7 +162,7 @@
                       <h4 class="modal-title" id="myModalLabel">P'tit Luxe</h4>
                     </div>
                     <div class="modal-body">
-                            <img src="images/food12.jpg" alt="chica chic"  class="img-responsive">
+                            <img src="../images/food12.jpg" alt="chica chic"  class="img-responsive">
                     </div>
                   </div>
                 </div>
@@ -186,7 +185,7 @@
                       <h4 class="modal-title" id="myModalLabel">Chica Chic</h4>
                     </div>
                     <div class="modal-body">
-                            <img src="images/food6.jpg" alt="challenger" class="img-responsive">
+                            <img src="../images/food6.jpg" alt="challenger" class="img-responsive">
                     </div>
                   </div>
                 </div>
@@ -194,7 +193,7 @@
 
 
 
-            <img src="images/labels2.png" alt="Labels qualité" class="img-responsive center-block labels">
+            <img src="../images/labels2.png" alt="Labels qualité" class="img-responsive center-block labels">
 
             
         </div>
@@ -212,36 +211,19 @@
 
 
 <!-- FOOTER -->
-        <footer>
-            <p id="bottom_logo">
-                <a href="menu.html"><img class="logo" alt="logo" src="images/moonylogo.png"></a>
-            </p>
-            <p>
-                <a href="https://www.tripadvisor.fr/Restaurant_Review-g187080-d2526815-Reviews-Moony_The_Homemade_Burger_Factory-Biarritz_Basque_Country_Pyrenees_Atlantiques_No.html"><i class="fa fa-tripadvisor"></i></a>
-            </p>
-            <p>
-                <a href="https://www.facebook.com/MOONY-214864855239151/"><i class="fa fa-facebook-f"></i></a>
-            </p>            <p>
-                <a href="https://www.instagram.com/moonyburger/"><i class="fa fa-instagram"></i></a>
-            </p>
-        </footer>
+    <footer>
+        <p id="bottom_logo">
+            <a href="index.html"><img class="logo" alt="logo" src="../images/moonylogo.png"></a>
+            <img src="../images/ca99ac_7ce92b13e717434fbc24980e4d2368e8.png" class="hidden-xs img-tampon" alt="image tampons" />
+        </p>
+        <div class="social-network visible-xs">
+            <a href="https://www.tripadvisor.fr/Restaurant_Review-g187080-d2526815-Reviews-Moony_The_Homemade_Burger_Factory-Biarritz_Basque_Country_Pyrenees_Atlantiques_No.html"><i class="fa fa-tripadvisor"></i></a>
+            <a href="https://www.facebook.com/MOONY-214864855239151/"><i class="fa fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/moonyburger/"><i class="fa fa-instagram"></i></a>
+        </div>
+    </footer>
 
-  <!--  <footer class="navbar-inverse navbar-fixed-bottom">
-        <div>
-            <a class="navbar-brand" href="#">
-                <p>
-                    <img class=" logo" alt="logo" src="../images/moonylogo.png">
-                </p>
-            </a>
-        </div>
-        <div>
-            <ul class="logo_list nav navbar-nav">
-                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fa fa-tripadvisor"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-        </div>
-    </footer> -->
+
 </body>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
