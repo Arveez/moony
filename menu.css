@@ -33,18 +33,31 @@ footer {
 
 .corpsBody{
     padding-top: 6em;
-    padding-bottom: 6em;
     margin: 0 auto;
 
 }
 
 .carrousell{
-    margin-top: 4em;
-    margin-bottom: 4em;
+    margin-bottom: 6em;
+}
+
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    color: #000;
+
+    margin-top: 1em;
 }
 
 .corpsBody h2{
     font-weight: bold;
+    cursor: pointer;
+}
+.corpsBody h2:hover{
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
 }
 .english{
     font-style: italic;
