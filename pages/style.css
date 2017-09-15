@@ -167,7 +167,6 @@ hr{
 .corpsBody{
     padding-top: 6em;
     margin: 0 auto;
-
 }
 
 .carrousell{
@@ -178,9 +177,9 @@ hr{
     position: relative;
     left: auto;
     right: auto;
-    color: #000;
+    color: #fff;
     display:block;
-    margin-top: 1em;
+    bottom: 20em;
 }
 
 .corpsBody h2{
