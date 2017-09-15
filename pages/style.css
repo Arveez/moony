@@ -102,7 +102,7 @@ hr{
     margin-top :20px;
 }
 .topic {
-    background-color: lightgrey;
+    background-color: #e8e8e8;
 }
 
 #bloc_page {
@@ -161,4 +161,7 @@ hr{
         display: inline-block;
         float:none;
     }
+}
+.carousel img {
+    width:100%
 }
