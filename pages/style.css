@@ -165,3 +165,40 @@ hr{
 .carousel img {
     width:100%
 }
+
+
+.corpsBody{
+    padding-top: 6em;
+    margin: 0 auto;
+
+}
+
+.carrousell{
+    margin-bottom: 6em;
+}
+
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    color: #000;
+    display:block;
+    margin-top: 1em;
+}
+
+.corpsBody h2{
+    font-weight: bold;
+    cursor: pointer;
+}
+.corpsBody h2:hover{
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+.english{
+    font-style: italic;
+}
+.labels{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
