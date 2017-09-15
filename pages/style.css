@@ -35,6 +35,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
     /*position: fixed;*/
     bottom:0
 }
@@ -91,6 +92,22 @@ hr{
     width: 100% !important;
     height: 100% !important;
 }
+.black_background {
+
+    background-color :black;
+    padding-top : 200px;
+}
+
+.topic:first-child {
+    margin-top :20px;
+}
+.topic {
+    background-color: #e8e8e8;
+}
+
+#bloc_page {
+    background-color: black;
+}
 
 @media screen and (min-width: 970px){
     .bg-img-bordeaux{
@@ -137,7 +154,43 @@ hr{
         margin: 0 0 2rem 3rem;
     }
     .navbar-nav > li {
-        display: inline-block !important;
-        float:none !important;
+        display: inline-block;
+        float:none;
     }
+}
+.carousel img {
+    width:100%
+}
+
+.corpsBody{
+    padding-top: 6em;
+    margin: 0 auto;
+}
+.carrousell{
+    margin-bottom: 6em;
+}
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    color: #000;
+    display:block;
+    margin-top: 1em;
+}
+
+.corpsBody h2{
+    font-weight: bold;
+    cursor: pointer;
+}
+.corpsBody h2:hover{
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+.english{
+    font-style: italic;
+}
+.labels{
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
