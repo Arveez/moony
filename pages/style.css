@@ -22,12 +22,31 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    position: fixed;
-    bottom:0
+
 }
 #bottom_logo {
     width: 60%;
     position : relative;
     top: 20px;
 }
+.black_background {
+
+    background-color :black;
+    padding-top : 200px;
+}
+
+.topic:first-child {
+    margin-top :20px;
+}
+.topic {
+    background-color: lightgrey;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+
 
