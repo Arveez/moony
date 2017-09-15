@@ -3,12 +3,16 @@
     height:50px;
     position: relative;
     top : -16px;
-
+}
+.logo-nav{
+    height: 7rem;
 }
 nav {
     padding: 10px;
 }
-
+.active a{
+    background-color: inherit !important;
+}
 .logo_list {
     display: flex;
     justify-content: space-around;
@@ -16,7 +20,17 @@ nav {
     background-color: blue;
     width :80%;
 }
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
 
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
 /*** FOOTER ***/
 footer {
     width :100%;
@@ -25,20 +39,28 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    position: fixed;
+    /*position: fixed;*/
     bottom:0
 }
 #bottom_logo {
     width: 60%;
-    position : relative;
-    top: 20px;
+    /*position : relative;*/
+    margin-top: 30px;
 }
-
+.social-network a{
+    margin: 0 1rem;
+    color: #9d9d9d;
+}
+.social-network a:hover{
+    color: #fff;
+}
 /*** MAIN STYLES***/
 .display-bloc{
     display: inline-block;
 }
-
+.padding-none{
+    padding: 0;
+}
 /*** EVENT ***/
 .icon-sport{
     width: 50px;
@@ -47,22 +69,12 @@ hr{
     width: 5rem;
     border-top: 2px solid #e2e2e2;
 }
-.bg-img-bordeaux{
-    background-image: url('../images/tree-nature-branch-plant-grape-vineyard-1062430-pxhere.com.jpg');
-	width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+.bloc-text a{
+    color: #000;
 }
-.bg-img-biarritz{
-    background-image: url('../images/img-2.jpg');
-	width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.bloc-text{
-    background-color: rgba(255, 255, 255, 0.52);
+.icon-contact{
+    margin-right: 0.5rem;
 }
 .marge-bloc{
     padding: 2rem 0;
@@ -70,7 +82,62 @@ hr{
 .item-sport{
     vertical-align: -5px;
 }
-/*** CONTACT ***/
-#bordeaux{
-    margin-top: 5rem;
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; 
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+@media screen and (min-width: 970px){
+    .bg-img-bordeaux{
+        background-image: url('../images/vine-moony-blur.jpg');
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bg-img-biarritz{
+        background-image: url('../images/ocean-moony-blur.jpg');
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bloc-text{
+        border-radius: 0.2rem;
+        margin-top: 14%;
+        padding: 1rem 2rem;
+        background-color: rgba(255, 255, 255, 0.70);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1230px){
+    #bottom_logo{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px){
+    .header-section{
+        margin-top: 5rem;
+    }
+    .social-network{
+        margin-top: -35px;
+    }
+    .social-network a{
+        float: right;
+    }
+    #bottom_logo{
+        text-align: center;
+    }
+    .img-tampon{
+        margin: 0 0 2rem 3rem;
+    }
 }
