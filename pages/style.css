@@ -1,3 +1,9 @@
+body{
+    background-color: #ececec;
+}
+.fixed-first-bloc{
+    margin-top: 5%;
+}
 /*** NAV ***/
 .logo {
     height:50px;
@@ -35,13 +41,10 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
-    /*position: fixed;*/
     bottom:0
 }
 #bottom_logo {
     width: 60%;
-    /*position : relative;*/
     margin-top: 30px;
 }
 .social-network a{
@@ -51,6 +54,7 @@ footer {
 .social-network a:hover{
     color: #fff;
 }
+
 /*** MAIN STYLES***/
 .display-bloc{
     display: inline-block;
@@ -58,15 +62,16 @@ footer {
 .padding-none{
     padding: 0;
 }
+
 /*** EVENT ***/
 .icon-sport{
     width: 50px;
 }
 hr{
-    width: 5rem;
-    border-top: 2px solid #e2e2e2;
+    width: 8%;
+    margin-top: 4rem !important;
+    border-top: 1px solid #b31010;
 }
-
 .bloc-text a{
     color: #000;
 }
@@ -79,6 +84,11 @@ hr{
 .item-sport{
     vertical-align: -5px;
 }
+.bloc-event{
+    margin: 3rem 2rem;
+}
+
+/*** CONTACT ***/
 .google-maps {
     position: relative;
     padding-bottom: 75%; 
@@ -93,7 +103,6 @@ hr{
     height: 100% !important;
 }
 .black_background {
-
     background-color :black;
     padding-top : 200px;
 }
@@ -109,6 +118,9 @@ hr{
     background-color: black;
 }
 
+@media screen and (min-width: 970px) and (max-width: 1400px){
+    
+}
 @media screen and (min-width: 970px){
     .bg-img-bordeaux{
         background-image: url('../images/vine-moony-blur.jpg');
@@ -156,6 +168,11 @@ hr{
     .navbar-nav > li {
         display: inline-block;
         float:none;
+    }
+}
+@media screen and (max-width: 768px){
+    .bloc-text-event{
+        text-align: center;
     }
 }
 .carousel img {
