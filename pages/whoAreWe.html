@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link type="text/css" rel="stylesheet" href="style.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="icofont.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,19 +40,50 @@
             <ul class="nav navbar-nav text-center center-block">
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="events.html">Evénements</a></li>
-                <li><a href="whoAreWe.html">Qui sommes nous ?</a></li>
-                <li class="active"><a href="contacts.html">Contact</a></li>
+                <li class="active"><a href="whoAreWe.html">Qui sommes nous ?</a></li>
+                <li><a href="contacts.html">Contact</a></li>
+                <li class="menu-delivery visible-xs">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#deliveryModal">
+                        <i class="icofont icofont-burger"></i>
+                        <p>Livraison</p>
+                    </button>
+                </li>
             </ul>
             <div class="social-network hidden-xs ">
                 <a href="https://www.tripadvisor.fr/Restaurant_Review-g187080-d2526815-Reviews-Moony_The_Homemade_Burger_Factory-Biarritz_Basque_Country_Pyrenees_Atlantiques_No.html"><i class="fa fa-tripadvisor"></i></a>
                 <a href="https://www.facebook.com/MOONY-214864855239151/"><i class="fa fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/moonyburger/"><i class="fa fa-instagram"></i></a>
+                <li class="menu-delivery">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#deliveryModal">
+                        <i class="icofont icofont-burger"></i>
+                        <p>Livraison</p>
+                    </button>
+                </li>
             </div>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
 
-<
+<!-- modal -->
+<div class="modal fade bs-example-modal-lg" id="deliveryModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title text-center" id="myModalLabel">Faites-vous livrer Moony où que vous soyez !</h3>
+                </div>
+                <div class="modal-body">
+                    <div id="delivery">
+                        <ul class="partnaires text-center">
+                            <li><a href="https://deliveroo.fr/fr/"><img src="../images/delivery-partnaires/deliveroo2-1.png" alt="commandez avec Deliveroo"/></a></li>
+                            <li><a href="https://www.alloresto.fr/"><img src="../images/delivery-partnaires/alloresto.jpg" alt="commandez avec allo resto"/></a></li>
+                            <li><a href="https://www.ubereats.com/bordeaux/"><img src="../images/delivery-partnaires/uber-eat.png" alt="commandez avec Uber EAt"/></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <section class="black_background" id="bloc_page">
     <div class="container-fluid">
         <div class="row">
