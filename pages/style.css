@@ -136,6 +136,92 @@ hr{
     }
 }
 
+
+
+/* Menu style */
+.carousel img {
+    width:100%
+}
+
+
+.corpsBody{
+    padding-top: 6em;
+    margin: 0 auto;
+    
+}
+
+.carrousell{
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+}
+
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    color: #fff;
+    display:block;
+    bottom: 20em;
+}
+
+.corpsBody h2{
+    font-weight: bold;
+    font-family: 'Laughing and Smiling', Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.corpsBody h2:hover{
+    font-weight: bold;
+    color: #C41E3A;
+    cursor: pointer;
+}
+.english{
+    font-style: italic;
+}
+.labels{
+
+    padding-bottom: 1em;
+}
+
+
+
+.chicaChic{
+    padding-bottom: 1em;
+}
+
+.labelSolo{
+    padding-top: 1em;
+}
+
+.right-block{
+    padding-bottom: 50px;
+}
+
+.nomBurger{
+    color:#C41E3A;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Laughing and Smiling', Arial, Helvetica, sans-serif;
+}
+
+.titreBurger1{
+    padding-left: 2.2em;
+}
+.titreBurger2{
+    padding-left: 3em;
+}
+.titreBurger3{
+    padding-left: 2.9em;
+}
+.titreBurger4{
+    padding-left: 2.9em;
+}
+.price{
+    font-weight: bold;
+}
+
+
+
 @media screen and (min-width: 768px) and (max-width: 1230px){
     #bottom_logo{
         width: 100%;
@@ -161,43 +247,34 @@ hr{
         display: inline-block;
         float:none;
     }
-}
-.carousel img {
-    width:100%
-}
-
-
-.corpsBody{
-    padding-top: 6em;
-    margin: 0 auto;
-}
-
-.carrousell{
-    margin-bottom: 6em;
-}
-
-.carousel-caption{
-    position: relative;
-    left: auto;
-    right: auto;
-    color: #fff;
-    display:block;
-    bottom: 20em;
-}
-
-.corpsBody h2{
-    font-weight: bold;
-    cursor: pointer;
-}
-.corpsBody h2:hover{
-    font-weight: bold;
-    color: red;
-    cursor: pointer;
-}
-.english{
-    font-style: italic;
-}
-.labels{
-    padding-top: 1em;
-    padding-bottom: 1em;
+    .titreBurger1{
+        padding-left: 6em;
+    }
+    .titreBurger2{
+        padding-left: 7em;
+    }
+    .titreBurger3{
+        padding-left: 7.5em;
+    }
+    .titreBurger4{
+        padding-left: 7.2em;
+    }
+    .footerMenu{
+        position: fixed;
+    }
+    .carrousell{
+        margin-bottom: 5em;
+    }
+    .burger{
+        padding-bottom: 5em;
+        width:auto;
+    }
+    .price{
+        padding-left:10em;
+        font-size: 1.2em;
+    }
+    .ingredients{
+        padding-top: 1em;
+        padding-bottom: 0.2em;
+    }
 }
