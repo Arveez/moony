@@ -45,7 +45,6 @@ footer {
 }
 .social-network{
     float: right;
-    margin-top: -40px;
 }
 .social-network li{
     display: inline-block;
@@ -62,11 +61,21 @@ footer {
 }
 .menu-delivery{
     padding: 5px;
-    background-color: rgb(255, 255, 255);
     border-radius: 5px;
 }
 .menu-delivery a{
     color: #BF0C0C !important;
+}
+.menu-delivery p{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.menu-delivery i{
+    display: inline-block;
+}
+.menu-delivery button{
+    margin-top: -20px;
 }
 /*** MAIN STYLES***/
 .display-bloc{

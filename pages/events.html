@@ -46,16 +46,19 @@
                     <li><a href="whoAreWe.html">Qui sommes nous ?</a></li>
                     <li class="active"><a href="contacts.html">Contact</a></li>
                     <li class="menu-delivery visible-xs">
-                        <a href="#" class="text-uppercase">
-                        <i class="icofont icofont-burger"></i>
-                        Livraison</a>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#deliveryModal">
+                            <i class="icofont icofont-burger"></i>
+                            <p>Livraison</p>
+                        </button>
                     </li>
+
                 </ul>
                 <ul class="social-network hidden-xs ">
                     <li class="menu-delivery">
-                        <a href="#" class="text-uppercase">
-                        <i class="icofont icofont-burger"></i>
-                        Livraison</a>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#deliveryModal">
+                            <i class="icofont icofont-burger"></i>
+                            <p>Livraison</p>
+                        </button>
                     </li>
                     <li class="social-network-text"><a href="https://www.tripadvisor.fr/Restaurant_Review-g187080-d2526815-Reviews-Moony_The_Homemade_Burger_Factory-Biarritz_Basque_Country_Pyrenees_Atlantiques_No.html"><i class="fa fa-tripadvisor"></i></a></li>
                     <li class="social-network-text"><a href="https://www.facebook.com/MOONY-214864855239151/"><i class="fa fa-facebook-f"></i></a></li>
@@ -69,14 +72,27 @@
 
     <h1 class="visible-xs">Événement</h1>
 
-    <div id="delivery">
-        <h2 class="text-center">Commandez chez nos partenaires et mangez Moony où que vous soyez !</h2>
-        <ul class="partnaires text-center">
-            <li><a><img src="../images/delivery-partnaires/deliveroo2-1.png" alt="commandez avec Deliveroo"/></a></li>
-            <li><a><img src="../images/delivery-partnaires/alloresto.jpg" alt="commandez avec allo resto"/></a></li>
-            <li><a><img src="../images/delivery-partnaires/uber-eat.png" alt="commandez avec Uber EAt"/></a></li>
-        </ul>
+    <!-- modal -->
+    <div class="modal fade bs-example-modal-lg" id="deliveryModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h3 class="modal-title text-center" id="myModalLabel">Faites-vous livrer Moony où que vous soyez !</h3>
+                </div>
+                <div class="modal-body">
+                    <div id="delivery">
+                        <ul class="partnaires text-center">
+                            <li><a href="https://deliveroo.fr/fr/"><img src="../images/delivery-partnaires/deliveroo2-1.png" alt="commandez avec Deliveroo"/></a></li>
+                            <li><a href="https://www.alloresto.fr/"><img src="../images/delivery-partnaires/alloresto.jpg" alt="commandez avec allo resto"/></a></li>
+                            <li><a href="https://www.ubereats.com/bordeaux/"><img src="../images/delivery-partnaires/uber-eat.png" alt="commandez avec Uber EAt"/></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
 
     <div id="carousel-example-generic" class="carousel slide header-section" data-ride="carousel">
         <!-- Indicators -->
