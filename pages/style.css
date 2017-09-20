@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'laughing_and_smilingregular';
+    src: url('../fonts/las-webfont.woff2') format('woff2'),
+         url('../fonts/las-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*** NAV ***/
 .logo {
     height:50px;
@@ -167,7 +176,7 @@ hr{
 
 .corpsBody h2{
     font-weight: bold;
-    font-family: 'Laughing and Smiling', Arial, Helvetica, sans-serif;
+    font-family: 'laughing_and_smilingregular', Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
 .corpsBody h2:hover{
