@@ -1,3 +1,9 @@
+body{
+    background-color: #ececec;
+}
+.fixed-first-bloc{
+    margin-top: 5%;
+}
 /*** NAV ***/
 .logo {
     height:50px;
@@ -26,7 +32,6 @@ nav {
     display: block;
     text-align: center;
 }
-
 /*** FOOTER ***/
 footer {
     width :100%;
@@ -35,14 +40,17 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
-    /*position: fixed;*/
     bottom:0
 }
 #bottom_logo {
     width: 60%;
-    /*position : relative;*/
     margin-top: 30px;
+}
+.social-network{
+    float: right;
+}
+.social-network li{
+    display: inline-block;
 }
 .social-network a{
     margin: 0 1rem;
@@ -51,6 +59,27 @@ footer {
 .social-network a:hover{
     color: #fff;
 }
+.social-network-text{
+    vertical-align: super;
+}
+.menu-delivery{
+    padding: 5px;
+    border-radius: 5px;
+}
+.menu-delivery a{
+    color: #BF0C0C !important;
+}
+.menu-delivery p{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.menu-delivery i{
+    display: inline-block;
+}
+.menu-delivery button{
+    margin-top: -20px;
+}
 /*** MAIN STYLES***/
 .display-bloc{
     display: inline-block;
@@ -58,15 +87,16 @@ footer {
 .padding-none{
     padding: 0;
 }
+
 /*** EVENT ***/
 .icon-sport{
     width: 50px;
 }
 hr{
-    width: 5rem;
-    border-top: 2px solid #e2e2e2;
+    width: 8%;
+    margin-top: 4rem !important;
+    border-top: 1px solid #b31010;
 }
-
 .bloc-text a{
     color: #000;
 }
@@ -79,9 +109,14 @@ hr{
 .item-sport{
     vertical-align: -5px;
 }
+.bloc-event{
+    margin: 3rem 2rem;
+}
+
+/*** CONTACT ***/
 .google-maps {
     position: relative;
-    padding-bottom: 75%; 
+    padding-bottom: 75%;
     height: 0;
     overflow: hidden;
 }
@@ -108,8 +143,6 @@ hr{
     font-size : 1.5em;
 }
 .topic {
-    background-color: #e8e8e8;
-    text-align: justify;
 
 }
 .topics {
@@ -121,9 +154,58 @@ hr{
     background-color: black;
 }
 
+/*** CAROUSEL HP***/
+.carousel img {
+    width:100%
+}
 
+.corpsBody{
+    padding-top: 6em;
+    margin: 0 auto;
+}
+.carrousell{
+    margin-bottom: 6em;
+}
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    color: #000;
+    display:block;
+    margin-top: 1em;
+}
 
+.corpsBody h2{
+    font-weight: bold;
+    cursor: pointer;
+}
+.corpsBody h2:hover{
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+.english{
+    font-style: italic;
+}
+.labels{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
 
+/*** LIVRAISON ***/
+.partnaires li{
+    display: inline-block;
+    margin: 0 3rem;
+}
+.partnaires img{
+    max-width: 150px;
+}
+#delivery{
+    margin-top: 5%;
+}
+#delivery h2{
+    padding: 3rem 0;
+}
 
 @media screen and (min-width: 970px){
     .bg-img-bordeaux{
@@ -239,6 +321,9 @@ hr{
     #bottom_logo{
         width: 100%;
     }
+    .bloc-text-event{
+        text-align: center;
+    }
 }
 @media screen and (min-width: 768px){
     .header-section{
@@ -289,5 +374,8 @@ hr{
     .ingredients{
         padding-top: 1em;
         padding-bottom: 0.2em;
+}
+    .menu-delivery{
+        margin-right: 2rem;
     }
 }
