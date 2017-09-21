@@ -32,7 +32,6 @@ nav {
     display: block;
     text-align: center;
 }
-
 /*** FOOTER ***/
 footer {
     width :100%;
@@ -47,6 +46,12 @@ footer {
     width: 60%;
     margin-top: 30px;
 }
+.social-network{
+    float: right;
+}
+.social-network li{
+    display: inline-block;
+}
 .social-network a{
     margin: 0 1rem;
     color: #9d9d9d;
@@ -54,7 +59,27 @@ footer {
 .social-network a:hover{
     color: #fff;
 }
-
+.social-network-text{
+    vertical-align: super;
+}
+.menu-delivery{
+    padding: 5px;
+    border-radius: 5px;
+}
+.menu-delivery a{
+    color: #BF0C0C !important;
+}
+.menu-delivery p{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.menu-delivery i{
+    display: inline-block;
+}
+.menu-delivery button{
+    margin-top: -20px;
+}
 /*** MAIN STYLES***/
 .display-bloc{
     display: inline-block;
@@ -91,7 +116,7 @@ hr{
 /*** CONTACT ***/
 .google-maps {
     position: relative;
-    padding-bottom: 75%; 
+    padding-bottom: 75%;
     height: 0;
     overflow: hidden;
 }
@@ -129,9 +154,59 @@ hr{
     background-color: black;
 }
 
-@media screen and (min-width: 970px) and (max-width: 1400px){
-    
+/*** CAROUSEL HP***/
+.carousel img {
+    width:100%
 }
+
+.corpsBody{
+    padding-top: 6em;
+    margin: 0 auto;
+}
+.carrousell{
+    margin-bottom: 6em;
+}
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    color: #000;
+    display:block;
+    margin-top: 1em;
+}
+
+.corpsBody h2{
+    font-weight: bold;
+    cursor: pointer;
+}
+.corpsBody h2:hover{
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+.english{
+    font-style: italic;
+}
+.labels{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/*** LIVRAISON ***/
+.partnaires li{
+    display: inline-block;
+    margin: 0 3rem;
+}
+.partnaires img{
+    max-width: 150px;
+}
+#delivery{
+    margin-top: 5%;
+}
+#delivery h2{
+    padding: 3rem 0;
+}
+
 @media screen and (min-width: 970px){
     .bg-img-bordeaux{
         background-image: url('../images/vine-moony-blur.jpg');
@@ -183,47 +258,7 @@ hr{
         display: inline-block;
         float:none;
     }
-}
-@media screen and (max-width: 768px){
-    .bloc-text-event{
-        text-align: center;
+    .menu-delivery{
+        margin-right: 2rem;
     }
 }
-.carousel img {
-    width:100%
-}
-
-.corpsBody{
-    padding-top: 6em;
-    margin: 0 auto;
-}
-.carrousell{
-    margin-bottom: 6em;
-}
-.carousel-caption{
-    position: relative;
-    left: auto;
-    right: auto;
-    color: #000;
-    display:block;
-    margin-top: 1em;
-}
-
-.corpsBody h2{
-    font-weight: bold;
-    cursor: pointer;
-}
-.corpsBody h2:hover{
-    font-weight: bold;
-    color: red;
-    cursor: pointer;
-}
-.english{
-    font-style: italic;
-}
-.labels{
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-
