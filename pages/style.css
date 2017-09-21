@@ -4,6 +4,15 @@ body{
 .fixed-first-bloc{
     margin-top: 5%;
 }
+@font-face {
+    font-family: 'laughing_and_smilingregular';
+    src: url('../fonts/las-webfont.woff2') format('woff2'),
+         url('../fonts/las-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*** NAV ***/
 .logo {
     height:50px;
@@ -261,7 +270,7 @@ hr{
 
 .corpsBody h2{
     font-weight: bold;
-    font-family: 'Laughing and Smiling', Arial, Helvetica, sans-serif;
+    font-family: 'laughing_and_smilingregular', Arial, Helvetica, sans-serif;
     cursor: pointer;
 }
 .corpsBody h2:hover{
@@ -285,7 +294,7 @@ hr{
 
 
 .labelSolo{
-    padding-top: 1em;
+    padding-top: 2em;
 }
 
 .right-block{
@@ -313,6 +322,7 @@ hr{
 }
 .price{
     font-weight: bold;
+    margin-top: 10px;  
 }
 
 
@@ -353,6 +363,7 @@ hr{
     }
     .titreBurger3{
         padding-left: 7.5em;
+        margin-top:30px;
     }
     .titreBurger4{
         padding-left: 7.2em;
@@ -368,8 +379,8 @@ hr{
         width:auto;
     }
     .price{
-        padding-left:10em;
         font-size: 1.2em;
+        margin-top: 10px;  
     }
     .ingredients{
         padding-top: 1em;
