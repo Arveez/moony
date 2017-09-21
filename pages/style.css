@@ -10,7 +10,6 @@ body{
          url('../fonts/las-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /*** NAV ***/
@@ -86,8 +85,9 @@ footer {
 .menu-delivery i{
     display: inline-block;
 }
-.menu-delivery button{
-    margin-top: -20px;
+.menu-delivery button:hover{
+  color: #fff;
+  background-color: inherit;
 }
 /*** MAIN STYLES***/
 .display-bloc{
@@ -216,31 +216,6 @@ hr{
     padding: 3rem 0;
 }
 
-@media screen and (min-width: 970px){
-    .bg-img-bordeaux{
-        background-image: url('../images/vine-moony-blur.jpg');
-        width: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .bg-img-biarritz{
-        background-image: url('../images/ocean-moony-blur.jpg');
-        width: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .bloc-text{
-        border-radius: 0.2rem;
-        margin-top: 14%;
-        padding: 1rem 2rem;
-        background-color: rgba(255, 255, 255, 0.70);
-    }
-}
-
-
-
 /* Menu style */
 .carousel img {
     width:100%
@@ -250,7 +225,7 @@ hr{
 .corpsBody{
     padding-top: 6em;
     margin: 0 auto;
-    
+
 }
 
 .carrousell{
@@ -322,10 +297,31 @@ hr{
 }
 .price{
     font-weight: bold;
-    margin-top: 10px;  
+    margin-top: 10px;
 }
 
-
+@media screen and (min-width: 970px){
+    .bg-img-bordeaux{
+        background-image: url('../images/vine-moony-blur.jpg');
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bg-img-biarritz{
+        background-image: url('../images/ocean-moony-blur.jpg');
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .bloc-text{
+        border-radius: 0.2rem;
+        margin-top: 14%;
+        padding: 1rem 2rem;
+        background-color: rgba(255, 255, 255, 0.70);
+    }
+}
 
 @media screen and (min-width: 768px) and (max-width: 1230px){
     #bottom_logo{
@@ -335,6 +331,7 @@ hr{
         text-align: center;
     }
 }
+
 @media screen and (min-width: 768px){
     .header-section{
         margin-top: 5rem;
@@ -380,13 +377,16 @@ hr{
     }
     .price{
         font-size: 1.2em;
-        margin-top: 10px;  
+        margin-top: 10px;
     }
     .ingredients{
         padding-top: 1em;
         padding-bottom: 0.2em;
-}
+      }
     .menu-delivery{
         margin-right: 2rem;
+    }
+    .menu-delivery button{
+        margin-top: -20px;
     }
 }
