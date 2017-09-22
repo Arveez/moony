@@ -74,8 +74,8 @@ footer {
     padding: 5px;
     border-radius: 5px;
 }
-.menu-delivery a{
-    color: #BF0C0C !important;
+.menu-delivery button{
+    color: #000;
 }
 .menu-delivery p{
     padding: 0;
@@ -387,6 +387,6 @@ hr{
         margin-right: 2rem;
     }
     .menu-delivery button{
-        margin-top: -20px;
+        margin-top: -10px;
     }
 }
